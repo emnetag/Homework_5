@@ -7,6 +7,10 @@ import java.util.*;
 public class MyGraph implements Graph {
 	// you will need some private fields to represent the graph
 	// you are also likely to want some private helper methods
+	
+	private Map<Vertex, Set<Vertex>> vMap;
+	private Set<Edge> eSet;
+	private int size;
 
 	// YOUR CODE HERE
 
@@ -20,7 +24,11 @@ public class MyGraph implements Graph {
 	 *            a collection of the edges in this graph
 	 */
 	public MyGraph(Collection<Vertex> v, Collection<Edge> e) {
-
+		
+		
+		
+		
+		
 		// YOUR CODE HERE
 
 	}
